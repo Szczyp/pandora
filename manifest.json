@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "I'm still, still, still, still, listening",
+  "version": "1.0.0",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.pandora.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
